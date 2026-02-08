@@ -1,1 +1,19 @@
 
+# Secure Vault Project - Git Ignore File
+
+# Ignore actual vault directory (contains sensitive test data)
+secure_vault/
+
+# Ignore backup files
+*.bak
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
